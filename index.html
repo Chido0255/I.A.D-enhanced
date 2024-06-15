@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+   
+
+    <meta
+      name="description"
+      content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations."
+    />
+
+  
+<meta itemprop="name" content="Syed Mohsin's Portfolio">
+<meta itemprop="description" content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in place of content -->
+<meta itemprop="image" content="assets/images/work/frontpage.png">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://Chdozie-portfolio.netlify.app">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Chidozie-Portfolio">
+<meta property="og:description" content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in content -->
+<meta property="og:image" content="assets/images/work/frontpage.png">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Chidozie Immanuel's Portfolio">
+<meta name="twitter:description" content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in content -->
+<meta name="twitter:image" content="assets/images/work/frontpage.png">
+
+
+
+    <link
+      rel="shortcut icon"
+      href="assets/images/me.jpg"
+      type="image/png"
+    />
+
+    <!-- Preloading fonts for better performance -->
+
+    <link
+      rel="preload"
+      href="assets/fonts/Mona-Sans.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
+    <!-- Your name here -->
+    <title>CHIDOZIE IMMANUEL's Portfolio</title>
+  </head>
+
+  <body>
+
+    <script>
+      const theme = localStorage.getItem("theme") || "dark";
+      document.body.classList.add(theme);
+    </script>
+
+    <header class="header">
+
+      <div class="menu-btn-container">
+        <div class="container">
+          <label class="theme-switch" for="theme-switch">
+            <span>Dark Theme</span>
+            <input type="checkbox" id="theme-switch" role="switch"/>
+          </label>
+          <button type="button" class="menu-btn">menu</button>
+        </div>
+      </div>
+
+      <nav class="nav hidden">
+        <ol class="nav-items">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#work">My Work</a></li>
+          <li class="nav-item"><a href="#blog">My Services</a></li>
+          <li class="nav-item"><a href="#skills">My Skills</a></li>
+          <li class="nav-item">
+            <a href="#contact" data-focused="last-focused">Contact</a>
+          </li>
+        </ol>
+      </nav>
+
+      <div class="container">
+        <div class="header-textbox">
+          
+          <h1>
+            Hi, I'm<br>
+             CHIDOZIE IMMANUEL ✨
+          </h1>
+
+         
+          <p class="header-text">
+            A Frontend Software engineer,Animator & VFX artist. I develop,
+            rich accessible and performant websites.
+            
+          </p>
+
+          <div class="header-btns">
+            <a href="https://wa.me/+2347041801714" class="btn btn-cta">Hire me</a>
+            <a href="#work" class="btn btn-secondary">See my work</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="untree_co-section pb-0" id="portfolio-section">
+        <div class="container">
+          <div class="row justify-content-center mb-3">
+            <div class="col-lg-7 mx-auto text-center author-wrap">
+            <div>
+              <h3 class="h3">ANIMATOR/VFX ARTIST</h3>
+              <strong>Who I am</strong>
+            </div>
+          </div>
+    
+          <div class="row justify-content-center">
+            <div class="col-lg-7">
+              I'm Collaborative and Eager to secure an internship using my experience with 3D art creation and building user friendly sites. Innovative IT Support Specialist with experience in selecting and setting up diverse 3D works. Strong written and oral communication skills resulting in knowledgeable, satisfied customers.
+            </br>
+           3D artist with my Proficiency in (blender,cascadeur & vroid studio) i have been able to develop scalable and intuitive websites for users which includes the implementation of user friendly purposes for updating content of their websites with ease.
+              
+    
+             
+              <br>
+
+             <div>
+    
+              <a href="https://www.linkedin.com/in/chido0255/" class="btn btn-secondary">View Linkedln</a>    
+            </div>
+          </div>
+        </div>
+      </div>
+   
+      </section>
+      <section class="article">
+        <div class="container">
+          <h2 class="h2" id="blog">My Services</h2>
+          <div class="article-boxes">
+          </section>
+            <article class="article-box">
+              <div class="article-textbox">
+              <div>
+                  <h3 class="h4">Website 
+                    Development/Maintenance</h3>
+                  <p class="article-text">
+                    I create websites and also the sites 
+                    I maintain websites overall health and performance.Keeping a website up-to-date at full capacity.
+                  </p>
+                </div>
+                <div class="article-info">
+                  <a href="https://dev.to/devsyedmohsin" class="link" target="_blank" rel="noopener"
+                    ></a
+                  >
+                  <span class="reaction-count">
+                    <img
+                      src="./assets/images/heart-outline.svg"
+                      alt="heart"
+                      loading="lazy"
+                    />
+                    200
+                  </span>
+                </div>
+              </div>
+            </article>
+            <article class="article-box">
+              <div class="article-textbox">
+                <div>
+                  <h3 class="h4">
+                    3D ARTIST✨
+                  </h3>
+                  <p class="article-text">
+                    Being a diligent ,hardworking and result oriented person,I always work towards achieving best results on each project I lay my hands on.<br>
+                    I find solutions to a problem and applying best practices to achieve a desired result.
+                  </p>
+                </div>
+                <div class="article-info">
+                  <a href="https://dev.to/devsyedmohsin/free-open-source-portfolio-template-for-developers-4g1d" class="link" target="_blank" rel="noopener"
+                    ></a
+                  >
+                  <span class="reaction-count">
+                    <img
+                      src="./assets/images/heart-outline.svg"
+                      alt="heart"
+                      loading="lazy"
+                    />
+                    177
+                  </span>
+                </div>
+              </div>
+            </article>
+            <article class="article-box">
+              <div class="article-textbox">
+                <div>
+    
+                  <div class="article-text">
+                    Responsible for crafting engaging content,driving brand awareness, and high quality 3D art to create consumer satisfaction
+                  </div>
+                </div>
+                <div class="article-info">
+                  <a href="https://dev.to/devsyedmohsin" class="link" target="_blank" rel="noopener"
+                    ></a
+                  >
+                  <span class="reaction-count">
+                    <img
+                      loading="lazy"
+                      src="./assets/images/heart-outline.svg"
+                      alt="heart"
+                    />
+                    350
+                  </span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+
+                <div class="work-links">
+                 
+                  <a
+                    href="https://github.com/Chido0255"
+                    target="_blank"
+                    rel="noopener"
+                    title="Source code"
+                  >
+                    <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+
+        
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="assets/images/work/frontpage.png"
+                  alt="agency elevation"
+                />
+              </picture>
+            </div>
+            <div class="work-box">
+              <div class="work-textbox">
+                  
+                  <a
+                    href="https://github.com/Chido0255"
+                    target="_blank"
+                    rel="noopener"
+                    title="Source code"
+                  >
+                    <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+    
+                  <a
+                    href="https://github.com/Chido0255"
+                    target="_blank"
+                    rel="noopener"
+                    title="Source code"
+                  >
+                   <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+         <!-- Update img src and alt attribute  -->
+   
+                <ol class="work-technologies">
+                  <li>Html & css</li>
+                  <li>Javascript</li>
+                </ol>
+
+
+                   <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                  <a
+                    href="https://github.com/Chido0255"
+                    target="_blank"
+                    rel="noopener"
+                    title="Source code"
+                  >
+                    <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+         <!-- Update img src and alt attribute  -->
+
+      <!-- I write blog posts on dev.to at https://dev.to/devsyedmohsin. I have linked my articles accordingly, so please update the article title, description, and link accordingly. For example, if you write an article on Medium, link your article to Medium. Also, don't forget to update the reaction count. -->
+
+      <section class="article">
+        <div class="container">
+          <h2 class="h2" id="blog">MY SKILLS</h2>
+          <strong>What Skills I Have</strong>
+          <div class="article-boxes">
+            <article class="article-box featured-article">
+              <div class="article-textbox">
+                <div>
+                  <h3 class="h3">
+                    Animator|<br>3D artist
+                    
+                  </h3>
+                  <p class="article-text">
+                    Innovative video creation with experience in selecting and setting up videos.Creative anime production i strive for customer care and satisfaction satisfaction
+                   i'm a solo 3d artist with a lot of room for growth hence makes me suitable for any job you have to offer.
+                  </p>
+                </div>
+                <div class="article-info">
+                  <a href="https:" class="link" target="_blank" rel="noopener"
+                    ></a>
+                 <img
+                      src="./assets/images/heart-outline.svg"
+                      alt="heart"
+                      loading="lazy"
+                    />
+                    416
+                  </span>
+                </div>
+              </div>
+              <picture class="article-illustration">
+                <img
+                  src="assets/images/me.jpg"
+                  alt="agamah
+                  loading="lazy"
+                />
+              </picture>
+              
+            </article>
+         
+        
+           <article class="article-box">
+              <div class="article-textbox">
+                <div>
+                  <h3>Programming<br>
+                    Languages</h3>
+                    <ul>
+                    <li>Git&GitHub</li>
+                <li>HTML/CSS</li>
+                <li>Javascript</li>
+              </ul>
+                </div>
+                <div class="article-info">
+                  <a href="https://www.linkedin.com/in/chido0255/" class="link" target="_blank" rel="noopener"
+                    
+                 
+                </div>
+              </div>
+            </article>
+            <article class="article-box">
+              <div class="article-textbox">
+                <div>
+                 
+                </ul>
+                </div>
+                <div class="article-info">
+                  <a href="https://www.linkedin.com/in/chido0255/" class="link" target="_blank" rel="noopener"
+                    >Book Consulation</a
+                  >
+                  
+                </div>
+              </div>
+            </article>
+            <article class="article-box">
+              <div class="article-textbox">
+                <div>
+                  <h3>Content<br>
+                    Management
+                    </h3>
+                  <ul>
+                  <li>3D modeling</li>
+                  <li>Animating</li>
+                  <li>Character designing</li>
+                  <li>craft artist</li>
+                  
+                </ul>
+                </div>
+                <div class="article-info">
+                  <a href="https://www.linkedin.com/in/chido0255/" class="link" target="_blank" rel="noopener"
+                    >Book Appointment</a
+                  >
+                  
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <br>
+      <p>   </p>
+      <div>
+        <div class="header-btns">
+          <a href="https://wa.me/+23430755635" class="btn btn-cta">Whatsapp</a>
+          <a href="mailto:taurus89025@gmail.com" class="btn btn-secondary">Email</a>
+        </div>
+      </div>
+    </div>
+      <!-- Update skills-img src, alt  and title attributes I have added some other logos in assets/images/skill for your convenience feel free to pick one if required  -->
+
+      <section class="skills">
+        <div class="container">
+          <h2 class="h2" id="skills">My Toolkit</h2>
+          <div class="skills-imgs">
+                <img src="assets/images/skills/blender.png" alt="React" class="skills-img" loading="lazy" title="React">
+                <img src="assets/images/skills/cascadeur.png" alt="Svelte" class="skills-img" loading="lazy" title="CSS">
+                 <img src="assets/images/skills/vroid.png" alt="Typescript" class="skills-img" loading="lazy" title="Typescript">
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <h2 class="h2" id="contact">Send Message</h2>
+          <div class="contact-content">
+            <div class="contact-textbox">
+              <!-- Please comment this component if you're not available for hire -->
+              <strong href="#" class="hire-alert">
+                <span class="indicator"></span>
+                Available for hire
+              </strong>
+              <p class="contact-text">
+                As an animator,i design and animate high-quality
+                NPR style art in order to  bringing ideas to life.
+                my way of animating is with the use of cool Software
+                like blender,cascadeur and vroid studio.
+              </p>
+              <p class="contact-text">
+                I'm also an open-source developer, and also do advanced Graphic Design
+              </p>
+              <!-- Replace src with your signatures and name -->
+              
+            </div>
+            <form action="#" class="contact-form" netlify>
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required />
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  inputmode="email"
+                />
+              </div>
+              <div class="form-field">
+                <label for="message">How can I help you?</label>
+                <textarea name="message" id="message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-cta">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <!-- Update href and src attributes -->
+          <nav>
+            <ol class="footer-links">
+              <li class="footer-link">
+                <a title="GitHub" href="https://github.com/Chido0255" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/github.svg"
+                    alt="GitHub"
+                /></a>
+              </li>
+              <li class="footer-link">
+                <a title="Linkedin" href="https://www.linkedin.com/in/chido0255/" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/linkedin.svg"
+                    alt="Linkedin"
+                /></a>
+              </li>
+              <li class="footer-link">
+                <a title="Twitter" href="https://github.com/devsyedmohsin" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/twitter.svg"
+                    alt="Twitter"
+                /></a>
+              </li>
+            </ol>
+          </nav>
+          <p class="footer-text">
+            &copy; <span>2024</span> - designed & developed by <a target="_blank" rel="noopener" href="https://github.com/Chido0255">Chidozie immanuel.</a>
+          </p>
+         
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
